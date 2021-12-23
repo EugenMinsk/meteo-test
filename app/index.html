@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Meteo</title>
+</head>
+<body>
+  <div class="modal-window" id="modal-window">
+    <span id="close-modal-window"></span>
+    <p>Какой-то текст</p>
+  </div>
+  <div class="meteo">
+    <h1>Прогноз погоды</h1>
+    <form class="form" id="mainform">
+    <input type="text" placeholder="Введите название города" id="city">
+      <button type="submit" id="search">Искать</button>
+    </form>
+    <div class="container" id="container"></div>
+    <button class="update" id="update">Обновить погоду</button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
